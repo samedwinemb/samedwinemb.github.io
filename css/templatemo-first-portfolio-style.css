@@ -645,9 +645,16 @@ strong {
 }
 
 .custom-textbox {
-  width: 80%;
-  margin: 0 auto;
-  display: block;
+background: var(--white-color);
+border: 4px solid transparent;
+border-radius: var(--border-radius-medium);
+  width: 100%;
+  height: 248px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-small);
+  box-sizing: border-box;
 }
 
 .services-thumb-up {
